@@ -1,0 +1,167 @@
+.cover{
+     background: linear-gradient(to top,#333333 10%, lightgray);
+     height:20rem;
+     width:60rem;
+     margin:0 auto;
+     border-radius:.5rem
+
+}
+.cover-profile{
+    width:9rem;
+    position: absolute;
+    top:48%;
+    left:22%;
+    background-color:white;
+    border-radius:5rem;
+    height:9rem
+
+
+}
+.profile-image-cover{
+     height:20rem;
+     width:60rem;
+     margin-left:16rem;
+     border-radius:.5rem
+}
+.cover-items{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6rem;
+    margin-left:3rem;
+    border-bottom:2px solid rgba(128, 128, 128, 0.2)
+
+}
+.cover-items p{
+    font-size:2rem;
+    font-weight:bold;
+
+}
+.cover-buttons button{
+    margin-left:2rem;
+    width:8rem;
+    height:2rem;
+    border-radius:.5rem;
+    border:none;
+    font-weight:bold
+
+
+
+}
+.cover-buttons button:first-child{
+    background-color:#1877F2;
+    color:white
+
+}
+.cover-buttons button:hover{
+    filter: brightness(0.95)
+
+}
+.edit-profile-picture img{
+    width:7rem;
+    height:7rem;
+    margin-left:11rem;
+    border-radius:3.5rem
+}
+.edit-modal{
+    background-color:white;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
+    width:30rem;
+    border-radius:.5rem;
+    padding:1rem;
+    position:absolute;
+    top:25%;
+    right:34%
+
+}
+.edit-modal p:first-child{
+
+    font-weight:bold;
+
+
+}
+.edit-title{
+    margin-right:11rem;
+
+
+}
+input[type="file"]{
+    display:none
+
+
+}
+.blank-cover{
+    background-color:rgba(128, 128, 128, 0.2);
+    width:20rem;
+    height:8rem;
+    border-radius:.5rem;
+    margin-left:5rem
+}
+.cover-image{
+    width:20rem;
+    height:8rem;
+    border-radius:.5rem;
+    margin-left:5rem
+}
+.edit-modal-header{
+    display:flex;
+    align-items:center;
+    justify-content:end;
+    border-bottom:1px solid rgba(128, 128, 128, 0.2)
+
+}
+.cursor{
+    cursor:pointer
+}
+.edit-button{
+    margin-left:28rem;
+    color:#1877F2;
+    cursor:pointer
+
+
+}
+.profile-navbar{
+    display:flex;
+    justify-content:flex-start;
+    gap:1.5rem;
+    margin-left:20rem;
+
+
+
+}
+.profile-navbar p{
+    padding:1rem;
+    cursor:pointer
+
+}
+.profile-navbar p:hover{
+    background-color:rgba(128, 128, 128, 0.1);
+    border-radius:.5rem
+}
+.profile-posts-container{
+    display:grid;
+    grid-template-columns:50% 50%
+
+}
+.profile-posts{
+    margin-right:10rem
+
+}
+.otherprofile{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10rem
+}
+.otherprofile button{
+    background-color:#1877F2;
+    color:white;
+    border:none;
+    font-weight:bold;
+    width:8rem;
+    height:2rem;
+    border-radius:.5rem;
+}
+.otherprofile button:hover{
+    filter: brightness(0.95)
+}

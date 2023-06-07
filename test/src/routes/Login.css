@@ -1,0 +1,132 @@
+body{
+    font-family: 'Inter', sans-serif
+
+}
+
+.container{
+    display:grid;
+    grid-template-columns:50% 50%
+
+}
+.container-left{
+    font-size:1.5rem;
+    padding:7rem
+
+}
+.container-left h1{
+    color:#1877F2;
+
+
+}
+.login{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    gap:1rem;
+
+
+}
+.login input{
+    width:20rem;
+    height:2.5rem;
+    border-radius:.5rem;
+    border:1px solid #80808080;
+    padding:.2rem
+
+}
+.login input:focus {
+  border-color:#1877F2;
+  outline:none
+}
+.container-right button{
+     width:20rem;
+    height:2.5rem;
+    font-size:1.3rem;
+    color:white;
+    border-radius:.5rem;
+    border:none;
+    background-color:#00A400;
+    font-weight:bold;
+    margin-top:.5rem;
+
+
+}
+.login button{
+    width:20rem;
+    height:2.5rem;
+    font-size:1.3rem;
+    color:white;
+    border-radius:.5rem;
+    border:none;
+    background-color:#1877F2;
+    font-weight:bold
+
+}
+.container-right{
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
+    height:20rem;
+    width:21rem;
+    padding:2rem;
+    border-radius:.5rem;
+    margin-top:5rem
+}
+.header{
+    display:flex;
+    justify-content:space-evenly
+
+}
+.createUser{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    gap:1rem;
+
+
+}
+.createUser input{
+    height:2rem;
+    border-radius:.5rem;
+    border:1px solid #80808080;
+    width:20rem
+
+
+
+}
+.createUser input:focus{
+    outline:none
+
+}
+.createUser button{
+    height:2rem;
+    width:10rem;
+    margin:0 auto;
+    border-radius:.5rem;
+    background-color:#00A400;
+    border:none;
+    font-weight:bold;
+    color:white;
+    font-size:1rem
+
+}
+.closeModal{
+    cursor:pointer
+}
+.modal-container{
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
+    border-radius:.5rem;
+    position:absolute;
+    top:25%;
+    left:37%;
+    padding:1rem;
+    background-color:white
+
+
+
+
+}
+button:hover{
+    cursor:pointer
+}
+.blur{
+    opacity:.3
+}
